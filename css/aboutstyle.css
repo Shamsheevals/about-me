@@ -1,0 +1,315 @@
+html,
+body {
+  font-family: 'Roboto';  
+  font-weight: 400;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 0;
+  margin:0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+.header {
+  background-color: #EEEFF1;
+  padding-bottom: 172px;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.header__img {
+  width: 96px;
+  height: 45px; 
+ 
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+
+.header__link {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main {
+  background-color:#EEEFF1;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+.main__textcontent {
+  margin: 50px 0;
+  width: 475px;
+  font-size: 16px;
+  line-height: 26px;
+  
+  color: #727272;
+}
+
+.main__button {
+  margin-bottom: 144px;
+  width: 225px;
+  height: 65px;
+  background: #34547A;
+color:white;
+left: 893px;
+top: 480px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+font-weight: 534px;
+}
+
+.section__h3{
+margin-top: 122px;
+margin-bottom: 40px;
+  font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+
+.section__textcontent{
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+
+.section__img{
+  display: flex;justify-content: space-around;
+  background-color: #34547A;
+padding: 120px 400px 69px 400px
+}
+
+.section__img--img{
+ width: 141px;
+}
+
+.section__skills{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section__skills--h3{
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+margin-bottom: 47px;
+}
+
+.section__skills--elem{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+.section__skills--avatar{
+  padding-bottom: 101px;
+width: 555px;
+height: 450px;
+padding: 187px 377px 101px 0px;
+}
+
+.section__skills--allelem{
+  padding-left: 377px;
+}
+
+.section__skills--grayunderline{
+  position: relative;
+  width: 445px;
+  height: 4px;
+  background: #C4C4C4;
+}
+
+.section__skills--blueunderline{
+position:absolute;
+width: 349.36px;
+height: 4px;
+background: #34547A;
+}
+
+.section__skills--allelem{
+margin-right: 139px;
+}
+
+.section__video--h2{
+ margin-top: 106px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.section__video{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+font-weight: 534px;
+  background-color:#EEEFF1;
+}
+
+
+.section__video--textcontent{
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  padding: 40px 0;
+}
+.section__video--img{
+  width: 1110px;
+height: 600px;
+padding-bottom: 128px;
+cursor: pointer;
+}
+.section__video--icon{
+  display: none;
+  position: absolute;
+  background: none;
+  z-index: 2;
+}
+
+
+.section__form{
+  display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: 534px;
+background-color:#EEEFF1;}
+
+.section__img--el{
+  width: 480px;
+height: 480px;
+}
+
+.section__form--h3{
+  font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  display: flex;flex-direction: row;
+  justify-content: space-between;
+  height: 151px;
+  background-color:#34547A;
+  padding-left: 390px;
+  padding-right: 390px;
+}
+.footer__author{
+  position: relative ;
+  display:flex;flex-direction: column;
+
+}
+.footer__name{
+  font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+.footer__copyright{
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;}
+.footer__a--img{
+  width: 44px;
+  height: 40px;
+
+}
