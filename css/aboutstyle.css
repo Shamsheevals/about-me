@@ -120,6 +120,7 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 letter-spacing: 0.1em;
+border: none;
 }
 
 .section__aboutme{
@@ -146,25 +147,21 @@ color: #000000;
   line-height: 26px;
   text-align: center;
   color: #727272;
+  padding-bottom: 99px;
 }
 
 .section__project{
   display: flex;justify-content: space-around;
   background-color: #34547A;
-padding: 120px 400px 69px 400px
+padding: 99px 400px ;
+
 }
 
 .section__project--img{
  width: 141px;
 }
 
-@media(max-width:1126px){
-  .section__skills--avatar{
-    width: 100%;
-    height: auto;
-    padding: 0px 0px 0px 0px;
-    }
-  }
+
 .section__skills{
   display: flex;
   flex-direction: row;
@@ -445,3 +442,27 @@ color: #FFFFFF;}
 }
 
 
+@media(max-width:1126px){
+  .header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .section__skills--avatar{
+    padding: 187px 0px 0px 0px;
+    }
+  }
+  
+  @media(max-width:980px){
+   .main__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+    .section__skills{
+      display: block;
+    }
+      
+    }
