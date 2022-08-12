@@ -520,7 +520,6 @@ textarea::placeholder {
     }
     .section-form {
       width: 100%;
-      padding: 25px;
     }
     .section__form__input {
       width: 540px;
@@ -534,7 +533,10 @@ textarea::placeholder {
       width: 90%;
     }
     .section__form--textarea {
-      width: 90%;      
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width: 85%;      
     }
     .section__img--repeat {
       display: grid;
