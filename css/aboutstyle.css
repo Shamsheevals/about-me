@@ -457,6 +457,7 @@ textarea::placeholder {
     padding: 25px;
   }
   .section__form__input {
+
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
